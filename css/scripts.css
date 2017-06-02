@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-.panel-height {
-  height: 300px; / change according to your requirement/
-}
-
 .content h4 {
   position: absolute;
   margin-top: -16%;
@@ -107,7 +103,11 @@
   letter-spacing: 1.2px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+  .panel-height {
+    height: 300px; / change according to your requirement/
+  }
 
   .content2 img {
     margin: 0% 0%;
@@ -160,4 +160,8 @@
   .content5 p {
     margin-left: 3%;
   }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  
 }
