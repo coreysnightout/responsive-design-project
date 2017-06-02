@@ -7,6 +7,11 @@
 .panel-body {
   padding: 0;
 }
+
+.panel-height {
+  height: 300px; / change according to your requirement/
+}
+
 .content h4 {
   position: absolute;
   margin-top: -16%;
@@ -64,4 +69,95 @@
 .content4 p {
   margin-left: 36%;
   color: grey;
+}
+
+.content5 img {
+  float: left;
+  width: 30%;
+  margin: 0% 3%;
+  margin-bottom: 2%;
+}
+
+.content5 p {
+  margin-left: 36%;
+  color: grey;
+}
+
+.content6 img {
+  width: 100%
+}
+
+.content6 h4 {
+  position: absolute;
+  margin-top: -16%;
+  margin-left: 4%;
+  font-style: normal;
+  font-size: 1.2em;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+.content6 p {
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 4%;
+  font-style: normal;
+  font-size: .7em;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (min-width: 767px) {
+
+  .content2 img {
+    margin: 0% 0%;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .content2 h4 {
+    margin-top: 0;
+    margin-left: 3%;
+  }
+  .content2 p {
+    margin-left: 3%;
+  }
+
+  .content3 img {
+    margin: 0% 0%;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .content3 h4 {
+    margin-top: 0;
+    margin-left: 3%;
+  }
+  .content3 p {
+    margin-left: 3%;
+  }
+
+  .content4 img {
+    margin: 0% 0%;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .content4 h4 {
+    margin-top: 0;
+    margin-left: 3%;
+  }
+  .content4 p {
+    margin-left: 3%;
+  }
+
+  .content5 img {
+    margin: 0% 0%;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .content5 h4 {
+    margin-top: 0;
+    margin-left: 3%;
+  }
+  .content5 p {
+    margin-left: 3%;
+  }
 }
