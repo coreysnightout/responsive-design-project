@@ -1,0 +1,22 @@
+.panel-body {
+  padding: 0;
+}
+.content h4 {
+  position: absolute;
+  margin-top: -16%;
+  margin-left: 4%;
+  font-style: normal;
+  font-size: 1.2em;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+.content p {
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 4%;
+  font-style: normal;
+  font-size: .7em;
+  color: white;
+  letter-spacing: 1.2px;
+}
