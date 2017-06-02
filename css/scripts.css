@@ -1,3 +1,7 @@
+body {
+  background-color: #f5f5f5;
+}
+
 h3 {
   display: none;
   font-family: sans-serif;
@@ -246,7 +250,10 @@ h3 {
 
   .content {
     width: 100%;
-    float: left;
+  }
+
+  .content img {
+    width: 100%;
   }
 
   .content2 img {
@@ -294,12 +301,12 @@ h3 {
     margin-top: 0;
     text-align: center;
     line-height: 23px;
-    /*margin-bottom: 50px;*/
   }
 
   .content4 p {
-    margin-top: 0;
-
+    margin: 0;
+    text-align: center;
+    /*top: 50px;*/
   }
 
   .content5 img {
@@ -312,15 +319,16 @@ h3 {
     margin-top: 0;
     text-align: center;
     line-height: 23px;
-    /*margin-bottom: 50px;*/
   }
 
   .content5 p {
-    margin-top: 0;
+    margin:0;
+    text-align: center;
   }
 
+
   .content6 {
-    width: 100%;
+    max-width: 100%;
   }
 
 
