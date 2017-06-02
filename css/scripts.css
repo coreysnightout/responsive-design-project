@@ -42,3 +42,26 @@
   margin-right: 2%;
   color: grey;
 }
+
+.content3 img {
+  float: left;
+  width: 30%;
+  margin: 0% 3%;
+  margin-bottom: 2%;
+}
+
+.content3 p {
+  color: grey;
+}
+
+.content4 img {
+  float: left;
+  width: 30%;
+  margin: 0% 3%;
+  margin-bottom: 2%;
+}
+
+.content4 p {
+  margin-left: 36%;
+  color: grey;
+}
