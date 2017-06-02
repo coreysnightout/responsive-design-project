@@ -1,3 +1,7 @@
+h3 {
+  display: none;
+  font-family: sans-serif;
+}
 
 .panel-body {
     box-shadow: 0 0 8px grey;
@@ -105,6 +109,10 @@
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
 
+  h1 {
+    display: none;
+  }
+
   .panel-height {
     height: 300px; / change according to your requirement/
   }
@@ -163,5 +171,157 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  
+
+    h1 {
+      display: none;
+    }
+
+    .panel-height {
+      height: 350px; / change according to your requirement/
+    }
+
+    .content2 img {
+      margin: 0% 0%;
+      width: 100%;
+      margin-bottom: 2%;
+    }
+    .content2 h4 {
+      margin-top: 0;
+      margin-left: 3%;
+    }
+    .content2 p {
+      margin-left: 3%;
+    }
+
+    .content3 img {
+      margin: 0% 0%;
+      width: 100%;
+      margin-bottom: 2%;
+    }
+    .content3 h4 {
+      margin-top: 0;
+      margin-left: 3%;
+    }
+    .content3 p {
+      margin-left: 3%;
+    }
+
+    .content4 img {
+      margin: 0% 0%;
+      width: 100%;
+      margin-bottom: 2%;
+    }
+    .content4 h4 {
+      margin-top: 0;
+      margin-left: 3%;
+    }
+    .content4 p {
+      margin-left: 3%;
+    }
+
+    .content5 img {
+      margin: 0% 0%;
+      width: 100%;
+      margin-bottom: 2%;
+    }
+    .content5 h4 {
+      margin-top: 0;
+      margin-left: 3%;
+    }
+    .content5 p {
+      margin-left: 3%;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+
+  h3 {
+    display: block;
+  }
+
+  .panel-height {
+    height: 310px;
+  }
+
+  .content {
+    width: 100%;
+    float: left;
+  }
+
+  .content2 img {
+    width: 100%;
+    margin: 0 0;
+    margin-bottom: 5%;
+  }
+
+  .content2 h4 {
+    margin-top: 0;
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 50px;
+  }
+
+  .content2 p {
+    margin-top: 0;
+    text-align: center;
+  }
+  .content3 img {
+    width: 100%;
+    margin: 0 0;
+    margin-bottom: 5%;
+  }
+
+  .content3 h4 {
+    margin-top: 0;
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 50px;
+  }
+
+  .content3 p {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .content4 img {
+    width: 100%;
+    margin: 0 0;
+    margin-bottom: 5%;
+  }
+
+  .content4 h4 {
+    margin-top: 0;
+    text-align: center;
+    line-height: 23px;
+    /*margin-bottom: 50px;*/
+  }
+
+  .content4 p {
+    margin-top: 0;
+
+  }
+
+  .content5 img {
+    width: 100%;
+    margin: 0 0;
+    margin-bottom: 5%;
+  }
+
+  .content5 h4 {
+    margin-top: 0;
+    text-align: center;
+    line-height: 23px;
+    /*margin-bottom: 50px;*/
+  }
+
+  .content5 p {
+    margin-top: 0;
+  }
+
+  .content6 {
+    width: 100%;
+  }
+
+
 }
